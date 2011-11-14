@@ -1,0 +1,14 @@
+bin
+gen
+*.class
+*R.java
+*.dex
+*.apk
+*.ap_
+.apt*
+.gwt/
+gwt-unitCache
+WEB-INF/
+war/WEB-INF/appengine-generated/
+*.cache.*
+local_db.bin

@@ -1,0 +1,46 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+	<g:HTMLPanel>
+		<div id="widget">
+			<div id="header">
+				<div ui:field="status" class="status none"></div>
+				<p>Try out roundtripping data to App Engine.</p>
+				<g:Button ui:field="sayHelloButton">Say Hello</g:Button>
+			</div>
+			<div id="header">
+				<div ui:field="locationStatus" class="status none"></div>
+				<p>Get phone location</p>
+				<g:Button ui:field="getLocationButton">Get Location</g:Button>
+				<g:Button ui:field="stopLocationButton">Stop Location</g:Button>
+			</div>
+			<div id="header">
+				<div ui:field="pingtatus" class="status none"></div>
+				<p>Get phone location</p>
+				<g:Button ui:field="pingButton">Ping Phone</g:Button>
+			</div>
+			<div id="header">
+				<div ui:field="playAudioStatus" class="status none"></div>
+				<p>Play Audio</p>
+				<g:Button ui:field="playAudioButton">Play Audio</g:Button>
+				<g:Button ui:field="stopAudioButton">Stop Audio</g:Button>
+			</div>			
+			<div id="header">
+				<div ui:field="openUriStatus" class="status none"></div>
+				<p>Open uri</p>
+				<g:TextBox ui:field="uriString"></g:TextBox>
+				<g:Button ui:field="openUriButton">Open URI</g:Button>
+				
+			</div>
+			
+
+			<div id="footer">
+				<p>Powered by Big Daddy</p>
+			</div>
+			<div id="map">
+			</div>
+		</div>
+		<div>
+		
+		</div>
+	</g:HTMLPanel>
+</ui:UiBinder>
