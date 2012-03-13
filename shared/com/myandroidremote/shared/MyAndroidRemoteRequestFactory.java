@@ -7,6 +7,4 @@ public interface MyAndroidRemoteRequestFactory extends RequestFactory {
 
 	AndroidCommandRequest androidCommandRequest();
 
-	LocationRequest locationRequest();
-
 }

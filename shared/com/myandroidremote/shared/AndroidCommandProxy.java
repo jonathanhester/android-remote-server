@@ -28,13 +28,13 @@ public interface AndroidCommandProxy extends ValueProxy {
 
 	void setResponseTime(Date responseTime);
 
-	double getLatitude();
+	int getLatitude();
 
-	void setLatitude(double latitude);
+	void setLatitude(int latitude);
 
-	double getLongitude();
+	int getLongitude();
 
-	void setLongitude(double longitude);
+	void setLongitude(int longitude);
 	
 	Date getTime();
 	

@@ -75,26 +75,26 @@ public class AndroidCommand {
 		this.responseTime = responseTime;
 	}
 	
-	private double latitude;
+	private int latitude;
 	
-	private double longitude;
+	private int longitude;
 	
 	private Date time;
 	
 
-	public double getLatitude() {
+	public int getLatitude() {
 		return latitude;
 	}
 
-	public void setLatitude(double latitude) {
+	public void setLatitude(int latitude) {
 		this.latitude = latitude;
 	}
 
-	public double getLongitude() {
+	public int getLongitude() {
 		return longitude;
 	}
 
-	public void setLongitude(double longitude) {
+	public void setLongitude(int longitude) {
 		this.longitude = longitude;
 	}
 

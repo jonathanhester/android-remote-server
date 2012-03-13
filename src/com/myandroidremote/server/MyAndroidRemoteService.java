@@ -63,30 +63,6 @@ public class MyAndroidRemoteService {
 		return db.findAll();
 	}
 
-	public static Location createLocation() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 
-	public static Location readLocation(Long id) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public static Location updateLocation(Location location) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public static void deleteLocation(Location location) {
-
-		//db.delete(loc)
-
-	}
-
-	public static List<Location> queryLocations() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 
 }

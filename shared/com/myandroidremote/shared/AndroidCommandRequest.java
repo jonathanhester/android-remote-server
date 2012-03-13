@@ -13,7 +13,7 @@ public interface AndroidCommandRequest extends RequestContext {
 	
 	Request<AndroidCommandProxy> respondAndroidCommand(Long id);
 	
-	Request<AndroidCommandProxy> respondLocationCommand(Long id, double latitude, double longitude, long time);
+	Request<AndroidCommandProxy> respondLocationCommand(Long id, int latitude, int longitude, long time);
 
 	Request<AndroidCommandProxy> readAndroidCommand(Long id);
 	
